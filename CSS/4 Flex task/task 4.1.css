@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    border: 2px solid black;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.b {
+    border: 2px solid black;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.c {
+    border: 2px solid black;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: green;
+}
+
+.containerb {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.containerc {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.containerd {
+    display: flex;
+    justify-content: flex-start;
+    background-color: green;
+}
+
+.containere {
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.abc {
+    border: 2px solid grey;
+    height: 115px;
+    width: 300px;
+    background-color: grey;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.abcd {
+    border: 2px solid black;
+    height: 115px;
+    width: 300px;
+}
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+table {
+    margin-left: 10px;
+}
+.d {
+    border: 1px solid black;
+}
+
+.containera {
+    display: flex;
+    gap: 20px;
+}
+.containerb {
+    display: flex;
+    gap: 20px;
+}

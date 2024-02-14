@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p::selection {
+    background-color: pink;
+    color: blue;
+}
+
+input::placeholder {
+    background-color: pink;
+    color: red;
+}
+
+p::first-line {
+    background-color: aqua;
+    color: blue;
+}
+
+p::first-letter {
+    background-color: red;
+    color: yellow;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:link {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+.a:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.ab:hover {
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.abc:hover {
+    border: solid black 2px;
+}
+
+.z {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.za {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 210px;
+}
+
+.zab {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 210px;
+}
+
+.zabc {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 210px;
+}
+
+.z:hover {
+    background-color: red;
+}
+
+.za:hover {
+    background-color: antiquewhite;
+}
+
+.zab:hover {
+    background-color: aqua;
+}
+
+.zabc:hover {
+    background-color: brown;
+}
+
+.main {
+    background: url(1.jpg);
+    height: 200px;
+    width: 200px;
+}
+
+.main:hover {
+    background: url(2.jpg);
+}
+
+input:focus {
+    background-color: blue;
+    color: antiquewhite;
+}

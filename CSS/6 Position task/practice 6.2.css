@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.abc1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    z-index: 3;
+}
+
+.abc2 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.abc3 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    z-index: 4;
+    left: 100px;
+}

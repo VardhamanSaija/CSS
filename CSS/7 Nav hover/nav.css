@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;}
+    
+.a {display: flex;
+column-gap: 10px;}
+.xyz {
+    display: none;
+}
+.abc:hover .xyz {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    position: relative;
+    padding: 10px;
+}
+
+.fgh {
+    display: none;
+}
+
+.asd:hover .fgh {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+
+}

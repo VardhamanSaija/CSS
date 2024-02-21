@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background:  linear-gradient(to right, rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.311)), url(Put\ Your\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 49% 100%, 0 80%);
+}
+
+.a {
+    font-size: 72px;
+    letter-spacing: 7px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 10px;
+}
+.main2 {
+    
+    text-align: end;
+}
+a {
+    text-decoration: none;
+}
+
+.b {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #f4f5f9;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    padding-top: 200px;
+    text-decoration: underline;
+}
+.c {
+    width: 50px;
+    height: 0px;
+}
+
+.d {
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.e {
+    text-align: center;
+    color: white;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+}
+
+.b1 {
+    background-color: red;
+}
+.b2 {
+    background-color: transparent;
+}
+
+.div {
+    display: flex;
+    justify-content: space-evenly;
+}
